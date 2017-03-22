@@ -126,7 +126,7 @@ h3.raleway-text {
 /*==========Menu Section=======*/
 #menu {
   background-image: url('../img/black_linen.png');
-  min-height: 600px;
+  min-height: 800px;
 }
 
 #menu .nav-tabs a {
@@ -144,6 +144,10 @@ h3.raleway-text {
   background-size: cover;
 }
 
+#menu h1 {
+  font-size: 6em;
+}
+
 #menu h3 {
   font-weight: 700;
 }
@@ -155,7 +159,7 @@ h3.raleway-text {
 /*=======Footer========*/
 footer {
   background-color: #f8512f;
-  min-height: 500px;
+  min-height: 600px;
   color: #fff;
 }
 
@@ -167,4 +171,20 @@ footer h1 {
 
 footer p {
   padding-bottom: 20px;
+}
+
+form {
+  background-color: #FF6633;
+}
+
+form label span {
+  color: red;
+}
+
+.embed-map {
+  padding-left: 6%;
+}
+
+.embed-map span:nth-child(1) {
+  font-weight: 700;
 }
